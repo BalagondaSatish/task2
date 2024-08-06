@@ -1,0 +1,19 @@
+#!/bin/bash
+
+
+echo "enter the marks"
+read a
+
+case $marks in
+
+>90) echo "destination"
+        ;;
+>=75) echo "first class"
+        ;;
+>=60) echo "second class"
+       ;;
+>=35) echo "pass"
+       ;;
+<35) echo "fail"
+       ;;
+*)  echo "enter correct marks"
